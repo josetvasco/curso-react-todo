@@ -1,0 +1,28 @@
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 54px;
+    width: 80%;
+    margin: 0 auto;
+    list-style: none;
+    background-color: white;
+    box-shadow: 0px 5px 25px silver;
+    position: relative;
+    text-align: center;
+}
+
+.todo-item {
+    margin: 8px 32px;
+    width: 90%;
+}
+
+.todo-item--completed {
+    text-decoration: line-through;
+}
+
+.delete:hover {
+    color: rgb(206, 11, 11);
+    cursor: pointer;
+}
+

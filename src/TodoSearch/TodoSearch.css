@@ -1,0 +1,21 @@
+.div-search {
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    border: 2px solid black;
+    width: 300px;
+    height: 45px;
+    border-radius: 4px;
+    outline: none;
+    text-align: center;
+    box-shadow: 0px 5px 50px silver;
+    font-size: 16px;
+}
+
+input:focus {
+    border-style: none;
+    border: 2px solid #61DAFA;
+    box-shadow: 0px 5px 20px #61DAFA;
+}

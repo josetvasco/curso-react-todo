@@ -1,0 +1,54 @@
+.card-skeleton {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 54px;
+    width: 80%;
+    margin: 0 auto;
+    list-style: none;
+    background-color: white;
+    box-shadow: 0px 5px 25px silver;
+    position: relative;
+}
+
+.check-skeleton {
+    position: absolute;
+    left: 12px;
+    width: 24px;
+    height: 24px;
+    background-color: #c6c4c4;
+    border-radius: 50%;
+}
+
+.text-skeleton{
+    margin: 0 auto;
+    width: 50%;
+    height: 20px;
+    background-color: #c6c4c4;
+    border-radius: 2px;
+}
+
+.delete-skeleton {
+    position: absolute;
+    top: -10px;
+    right: 3px;
+    width: 28px;
+    height: 28px;
+    background-color: #c6c4c4   ;
+    border-radius: 50%;
+}
+
+.skeleton {
+    animation: skeleton 0.8s ease-in-out infinite alternate;
+}
+/* cubic-bezier(0.215, 0.610, 0.355, 1) */
+/* cubic-bezier(0.19, 1, 0.22, 1) */
+
+@keyframes skeleton {
+    0%{
+        background-color: #cfcece;
+    }
+    100%{
+        background-color: #a4a4a4;
+    }
+}

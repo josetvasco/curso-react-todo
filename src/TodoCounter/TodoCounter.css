@@ -1,0 +1,26 @@
+h1 {
+  font-size: 32px;
+  text-align: center;
+  margin: 0;
+  padding: 40px;
+  font-weight: 400;
+}
+
+.negrita {
+  font-weight: 700;
+}
+
+.loading {
+  animation: loading 0.8s ease-in-out infinite alternate;
+  font-weight: 600;
+}
+
+@keyframes loading {
+  0%{
+    opacity: 0%;
+  }
+  100%{
+    opacity: 100%;
+  }
+}
+
