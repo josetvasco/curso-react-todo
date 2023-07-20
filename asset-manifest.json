@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/josetvasco/curso-react-todo/static/css/main.82e4c0f2.css",
+    "main.js": "/josetvasco/curso-react-todo/static/js/main.38380877.js",
+    "index.html": "/josetvasco/curso-react-todo/index.html",
+    "static/media/delete.svg": "/josetvasco/curso-react-todo/static/media/delete.7018c4465589031bd51c8efbe21df9ca.svg",
+    "static/media/check.svg": "/josetvasco/curso-react-todo/static/media/check.e9a948bba52a34123d2ed7aeda0ea495.svg",
+    "main.82e4c0f2.css.map": "/josetvasco/curso-react-todo/static/css/main.82e4c0f2.css.map",
+    "main.38380877.js.map": "/josetvasco/curso-react-todo/static/js/main.38380877.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.82e4c0f2.css",
+    "static/js/main.38380877.js"
+  ]
+}
